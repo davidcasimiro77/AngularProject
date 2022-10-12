@@ -1,0 +1,37 @@
+div {
+    color: #615D6C;
+}
+
+#entree {
+    background-color: #ACEDFF;
+    border-radius: 10px;
+}
+
+img.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+img.post {
+    width: 100%;
+    height: width;
+    padding-right: 50px;
+}
+
+#corazon {
+    width: 15%;
+    height: width;
+    padding-right: 5px;
+}
+
+#comentario {
+    width: 9%;
+    height: width;
+
+}
+
+#feed {
+    padding-left: 37.5%;
+    padding-top: 25px;
+}

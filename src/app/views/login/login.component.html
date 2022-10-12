@@ -1,0 +1,35 @@
+<img id="logo" src="../../../assets/images/icons/SkyNet.png">
+
+<div id="contenedor" class="form">
+    <form (ngSubmit)="submit()" #userForm="ngForm">
+        <div id="contenedor">
+            <div class="form-group">
+                <p for="user">Correo electrónico</p>
+
+                <input type="text" [(ngModel)]="user.correo" name="correo" #correo="ngModel" required>
+
+                <div *ngIf="correo.invalid && correo.dirty" class="alert">
+                    <div *ngIf="correo.errors?.['required']">Campo requerido</div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p for="password">Contraseña:</p>
+                <input type="password" [(ngModel)]="user.password" name="password" #password="ngModel" required
+                    minlength="4">
+
+                <div *ngIf="password.invalid && password.dirty" class="alert">
+                    <div *ngIf="password .errors?.['required']">Campo requerido</div>
+                    <div *ngIf="password .errors?.['minlength']">Mínimo 4 caracteres</div>
+                </div>
+            </div>
+
+            <button type="submit" routerLink="/per" [disabled]="!userForm.form.valid">Entrar</button>
+
+            <p>¿Aún no tienes cuenta?</p>
+            <p id="reg">Registrate</p>
+
+        </div>
+
+    </form>
+</div>

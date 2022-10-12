@@ -1,0 +1,36 @@
+#logo {
+    height: 150px;
+    width: 150px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+
+#contenedor {
+    text-align: left;
+    color: #615D6C;
+    text-align: center;
+}
+
+#button {
+    margin-top: 25px;
+}
+
+button {
+    background-color: #0B8AB7;
+    color: white;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    padding-top: 10px;
+}
+
+#reg {
+    color: #0B8AB7;
+}

@@ -1,0 +1,15 @@
+div {
+    width: 100%;
+    text-align: center;
+    top: 100px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(97, 93, 108, 1);
+}
+
+p {
+    font-size: 20px;
+    color: rgb(97, 93, 108, 1);
+}

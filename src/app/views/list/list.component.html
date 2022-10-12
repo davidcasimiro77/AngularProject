@@ -1,0 +1,4 @@
+<div id="list">
+    <app-entree *ngFor="let entree of entryList " [entree]="entree" (click)="showTitle(entree.name)">
+    </app-entree>
+</div>
